@@ -2,7 +2,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- head content -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 <body>
     @include('layouts.partials.navbar')

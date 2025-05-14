@@ -16,23 +16,23 @@
             <a href="{{ route('home') }}" class="text-gray-700 hover:text-pink-600 px-3 py-2 text-sm font-medium {{ request()->routeIs('home') ? 'text-pink-600 border-b-2 border-pink-600' : '' }}">
                 Homepage
             </a>
-            <a href="{{ route('diary') }}" class="text-gray-700 hover:text-pink-600 px-3 py-2 text-sm font-medium {{ request()->routeIs('diary') ? 'text-pink-600 border-b-2 border-pink-600' : '' }}">
+            <a href="{{ route('home') }}" class="text-gray-700 hover:text-pink-600 px-3 py-2 text-sm font-medium {{ request()->routeIs('diary') ? 'text-pink-600 border-b-2 border-pink-600' : '' }}">
                 Diary
             </a>
-            <a href="{{ route('belajar') }}" class="text-gray-700 hover:text-pink-600 px-3 py-2 text-sm font-medium {{ request()->routeIs('belajar') ? 'text-pink-600 border-b-2 border-pink-600' : '' }}">
+            <a href="{{ route('home') }}" class="text-gray-700 hover:text-pink-600 px-3 py-2 text-sm font-medium {{ request()->routeIs('belajar') ? 'text-pink-600 border-b-2 border-pink-600' : '' }}">
                 Belajar
             </a>
             <a href="{{ route('gejala') }}" class="text-gray-700 hover:text-pink-600 px-3 py-2 text-sm font-medium {{ request()->routeIs('gejala') ? 'text-pink-600 border-b-2 border-pink-600' : '' }}">
                 Gejala
             </a>
-            <a href="{{ route('about') }}" class="text-gray-700 hover:text-pink-600 px-3 py-2 text-sm font-medium {{ request()->routeIs('about') ? 'text-pink-600 border-b-2 border-pink-600' : '' }}">
+            <a href="{{ route('home') }}" class="text-gray-700 hover:text-pink-600 px-3 py-2 text-sm font-medium {{ request()->routeIs('about') ? 'text-pink-600 border-b-2 border-pink-600' : '' }}">
                 About Us
             </a>
-            <a href="{{ route('bu-clara') }}" class="text-gray-700 hover:text-pink-600 px-3 py-2 text-sm font-medium {{ request()->routeIs('bu-clara') ? 'text-pink-600 border-b-2 border-pink-600' : '' }}">
+            <a href="{{ route('home') }}" class="text-gray-700 hover:text-pink-600 px-3 py-2 text-sm font-medium {{ request()->routeIs('bu-clara') ? 'text-pink-600 border-b-2 border-pink-600' : '' }}">
                 Bu Clara
             </a>
             <!-- Add your 7th menu item here -->
-            <a href="{{ route('contact') }}" class="text-gray-700 hover:text-pink-600 px-3 py-2 text-sm font-medium {{ request()->routeIs('contact') ? 'text-pink-600 border-b-2 border-pink-600' : '' }}">
+            <a href="{{ route('home') }}" class="text-gray-700 hover:text-pink-600 px-3 py-2 text-sm font-medium {{ request()->routeIs('contact') ? 'text-pink-600 border-b-2 border-pink-600' : '' }}">
                 Contact
             </a>
         </div>
@@ -53,22 +53,22 @@
             <a href="{{ route('home') }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-pink-600 hover:bg-gray-50">
                 Homepage
             </a>
-            <a href="{{ route('diary') }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-pink-600 hover:bg-gray-50">
+            <a href="{{ route('home') }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-pink-600 hover:bg-gray-50">
                 Diary
             </a>
-            <a href="{{ route('belajar') }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-pink-600 hover:bg-gray-50">
+            <a href="{{ route('home') }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-pink-600 hover:bg-gray-50">
                 Belajar
             </a>
             <a href="{{ route('gejala') }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-pink-600 hover:bg-gray-50">
                 Gejala
             </a>
-            <a href="{{ route('about') }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-pink-600 hover:bg-gray-50">
+            <a href="{{ route('home') }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-pink-600 hover:bg-gray-50">
                 About Us
             </a>
-            <a href="{{ route('bu-clara') }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-pink-600 hover:bg-gray-50">
+            <a href="{{ route('home') }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-pink-600 hover:bg-gray-50">
                 Bu Clara
             </a>
-            <a href="{{ route('contact') }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-pink-600 hover:bg-gray-50">
+            <a href="{{ route('home') }}" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-pink-600 hover:bg-gray-50">
                 Contact
             </a>
         </div>
