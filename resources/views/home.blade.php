@@ -2,10 +2,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- head content -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 </head>
 <body>
-    @include('layouts.partials.navbar')
+    @include('layouts.navbar')
     
     <main>
         @yield('content')
